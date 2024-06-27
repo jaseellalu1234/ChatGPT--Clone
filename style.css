@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Apple Color Emoji, Arial, Segoe UI Emoji, Segoe UI Symbol;
+    font-family: ui-sans-serif, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica, Apple Color Emoji, Arial, Segoe UI Emoji, Segoe UI Symbol !important;
 }
 
 .main-body {
@@ -151,4 +151,10 @@ textarea::placeholder {
     padding: 15px;
     font-size: 15px;
     font-weight: 600;
+}
+
+.automated {
+    position: absolute;
+    bottom: 80px;
+    left: 38%;
 }
