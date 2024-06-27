@@ -160,3 +160,14 @@ textarea::placeholder {
     bottom: 80px;
     left: 38%;
 }
+.automated button{
+    text-align: left;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #373737;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 285px;
+    cursor: pointer;
+}
